@@ -18,7 +18,7 @@ from section_detector import detect_sections
 from skill_extractor import extract_skills
 
 
-def run_pipeline(file_path: str) -> dict:
+def run_pipeline(file_path: str, jd_text: str = "") -> dict:
     print(f"[1/4] Extracting text from: {file_path}")
     extraction = extract_text(file_path)
 
