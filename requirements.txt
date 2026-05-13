@@ -1,0 +1,22 @@
+# ── Text extraction ──────────────────────────────────────────
+pdfplumber==0.10.3          # PDF text + layout extraction (better than PyPDF2)
+python-docx==1.1.0          # DOCX file reading
+
+# ── NLP core ─────────────────────────────────────────────────
+spacy==3.7.4                # NLP pipeline: tokenisation, NER, POS tagging
+# After pip install, run: python -m spacy download en_core_web_sm
+
+# ── Semantic matching ─────────────────────────────────────────
+sentence-transformers==2.7.0  # Pretrained BERT-based embeddings for JD matching
+
+# ── ML utilities ─────────────────────────────────────────────
+scikit-learn==1.4.2         # Cosine similarity, TF-IDF (used in ATS scoring)
+numpy==1.26.4
+
+# ── API layer (for your teammate to consume) ─────────────────
+fastapi==0.111.0
+uvicorn==0.29.0
+python-multipart==0.0.9     # Needed for FastAPI file uploads
+
+# ── Utilities ────────────────────────────────────────────────
+python-dotenv==1.0.1
