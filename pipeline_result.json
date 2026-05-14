@@ -1,0 +1,7048 @@
+{
+  "pipeline_version": "1.0.0",
+  "modules_used": [
+    "keyword_analyzer",
+    "jd_matcher",
+    "ats_scorer"
+  ],
+  "keyword_analysis": {
+    "resume": {
+      "source": "resume",
+      "total_tokens": 231,
+      "unique_terms": 518,
+      "top_technical_skills": [
+        "aws",
+        "python",
+        "kubernetes",
+        "fastapi",
+        "docker",
+        "apache",
+        "kafka",
+        "spark",
+        "django",
+        "postgresql",
+        "jenkins",
+        "pandas",
+        "scikit-learn",
+        "airflow",
+        "github actions",
+        "microservices",
+        "rest",
+        "ci/cd",
+        "go",
+        "sql"
+      ],
+      "certifications": [
+        "cka",
+        "aws certified",
+        "solutions architect"
+      ],
+      "soft_skills": [
+        "cross-functional"
+      ],
+      "domain_keywords": [
+        "pipelines",
+        "software",
+        "engineer",
+        "data",
+        "certified",
+        "ml",
+        "software engineer",
+        "systems",
+        "solutions",
+        "ecs",
+        "built",
+        "github",
+        "actions",
+        "pipeline",
+        "data pipelines"
+      ],
+      "all_keywords": [
+        {
+          "term": "aws",
+          "frequency": 5,
+          "tfidf_score": 0.2348,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "python",
+          "frequency": 4,
+          "tfidf_score": 0.1955,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "kubernetes",
+          "frequency": 3,
+          "tfidf_score": 0.1537,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "fastapi",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "docker",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "apache",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "kafka",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "spark",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "django",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "postgresql",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "jenkins",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "pandas",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "scikit-learn",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "airflow",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "github actions",
+          "frequency": 2,
+          "tfidf_score": 0.1085,
+          "category": "technical",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines",
+          "frequency": 4,
+          "tfidf_score": 0.0977,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "software",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "engineer",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "data",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "certified",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ml",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "software engineer",
+          "frequency": 3,
+          "tfidf_score": 0.0768,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "rest",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "go",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "sql",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "bash",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "javascript",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "flask",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "react",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "helm",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "mysql",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "redis",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "elasticsearch",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "numpy",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "git",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "linux",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "jira",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "confluence",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0585,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "systems",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "solutions",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ecs",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "built",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "github",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "actions",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "pipeline",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "data pipelines",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws certified",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "certification",
+          "is_ngram": true
+        },
+        {
+          "term": "certified solutions",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "actions jenkins",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws certified solutions",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "github actions jenkins",
+          "frequency": 2,
+          "tfidf_score": 0.0542,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jane",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "doe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "jane.doe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "email.com",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "+1",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "123-4567",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "linkedin.com/in/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "github.com/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "summary",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "experienced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "years",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "building",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "scalable",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "backend",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "kubernetes.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "architect.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "experience",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "senior",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "techcorp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "inc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "present",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "designed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "deployed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "processing",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "2m",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "events/day",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "reduced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "costs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "migrating",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "terraform-managed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "infra",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "led",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "cross-functional",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "soft_skill",
+          "is_ngram": false
+        },
+        {
+          "term": "team",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "engineers",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "conducted",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "code",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "reviews",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "mentored",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "juniors",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "datawave",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ltd.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "developed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "apis",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "serving",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "500k",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "daily",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "active",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "users",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "implemented",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "created",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "feature",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "education",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "b.sc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "computer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "science",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "state",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "university",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "gpa",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "3.8/4.0",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "relevant",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "coursework",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "algorithms",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "distributed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "skills",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "languages",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "frameworks",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "s3",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "rds",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "basics",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "devops",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "databases",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "tools",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "certifications",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "architect",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "associate",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "cka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "certification",
+          "is_ngram": false
+        },
+        {
+          "term": "administrator",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "projects",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "resume",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ats",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "nlp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "analyse",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "resumes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "against",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "job",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "descriptions",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "tf-idf",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "keyword",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "extraction",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "cosine",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "similarity",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "jd",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "matching",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "jane doe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "doe jane.doe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jane.doe email.com",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "email.com +1",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "+1 123-4567",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "123-4567 linkedin.com/in/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "linkedin.com/in/janedoe github.com/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "github.com/janedoe summary",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "summary experienced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experienced software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer years",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "years building",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "building scalable",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scalable backend",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "backend systems",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "systems data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws kubernetes.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes. aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architect. experience",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience senior",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "senior software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer techcorp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "techcorp inc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "inc. present",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "present designed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "designed deployed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "deployed microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "microservices python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python fastapi",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "fastapi docker",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ecs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ecs built",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "built real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "real-time data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines apache",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apache kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka apache",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apache spark",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark processing",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "processing 2m",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "2m events/day",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "events/day reduced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "reduced infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure costs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "costs migrating",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "migrating kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes terraform-managed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform-managed infra",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infra led",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "led cross-functional",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cross-functional team",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "team engineers",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineers conducted",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "conducted code",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "code reviews",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "reviews mentored",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mentored juniors",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "juniors software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer datawave",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "datawave ltd.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ltd. developed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "developed rest",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rest apis",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apis django",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "django postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql serving",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "serving 500k",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "500k daily",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "daily active",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "active users",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "users implemented",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "implemented ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci/cd pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines github",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jenkins created",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "created ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml feature",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "feature pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines pandas",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pandas scikit-learn",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scikit-learn airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow education",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "education b.sc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "b.sc. computer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "computer science",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "science state",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "state university",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "university gpa",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gpa 3.8/4.0",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "3.8/4.0 relevant",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "relevant coursework",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "coursework algorithms",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "algorithms distributed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "distributed systems",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "systems ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml skills",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills languages",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "languages python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python go",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "go sql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "sql bash",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bash javascript",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "javascript frameworks",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "frameworks fastapi",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "fastapi django",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "django flask",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "flask react",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "react cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cloud aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ec2 s3",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "s3 lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "lambda ecs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ecs rds",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rds gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gcp basics",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "basics devops",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "devops docker",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform github",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jenkins helm",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "helm databases",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "databases postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql mysql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mysql redis",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "redis mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mongodb elasticsearch",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "elasticsearch data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml pandas",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pandas numpy",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "numpy scikit-learn",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scikit-learn spark",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "dbt tools",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tools git",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "git linux",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "linux jira",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jira confluence",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "confluence prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "prometheus grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "grafana certifications",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certifications aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "certification",
+          "is_ngram": true
+        },
+        {
+          "term": "architect associate",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "associate cka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cka certified",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certified kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes administrator",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "administrator projects",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "projects resume",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "resume ats",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ats pipeline",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipeline built",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "built nlp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "nlp pipeline",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipeline python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python analyse",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "analyse resumes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "resumes against",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "against job",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "job descriptions",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "descriptions tf-idf",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tf-idf keyword",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "keyword extraction",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "extraction cosine",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cosine similarity",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "similarity jd",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jd matching",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jane doe jane.doe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "doe jane.doe email.com",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jane.doe email.com +1",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "email.com +1 123-4567",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "+1 123-4567 linkedin.com/in/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "123-4567 linkedin.com/in/janedoe github.com/janedoe",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "linkedin.com/in/janedoe github.com/janedoe summary",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "github.com/janedoe summary experienced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "summary experienced software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experienced software engineer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineer years",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer years building",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "years building scalable",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "building scalable backend",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scalable backend systems",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "backend systems data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "systems data pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data pipelines python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines python aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python aws kubernetes.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws kubernetes. aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes. aws certified",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certified solutions architect.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect. experience",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architect. experience senior",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience senior software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "senior software engineer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineer techcorp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer techcorp inc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "techcorp inc. present",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "inc. present designed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "present designed deployed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "designed deployed microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "deployed microservices python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "microservices python fastapi",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python fastapi docker",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "fastapi docker aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker aws ecs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ecs built",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ecs built real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "built real-time data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "real-time data pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data pipelines apache",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines apache kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apache kafka apache",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka apache spark",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apache spark processing",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark processing 2m",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "processing 2m events/day",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "2m events/day reduced",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "events/day reduced infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "reduced infrastructure costs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure costs migrating",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "costs migrating kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "migrating kubernetes terraform-managed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes terraform-managed infra",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform-managed infra led",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infra led cross-functional",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "led cross-functional team",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cross-functional team engineers",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "team engineers conducted",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineers conducted code",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "conducted code reviews",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "code reviews mentored",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "reviews mentored juniors",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mentored juniors software",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "juniors software engineer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineer datawave",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer datawave ltd.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "datawave ltd. developed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ltd. developed rest",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "developed rest apis",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rest apis django",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "apis django postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "django postgresql serving",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql serving 500k",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "serving 500k daily",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "500k daily active",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "daily active users",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "active users implemented",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "users implemented ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "implemented ci/cd pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci/cd pipelines github",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines github actions",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "actions jenkins created",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jenkins created ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "created ml feature",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml feature pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "feature pipelines pandas",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines pandas scikit-learn",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pandas scikit-learn airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scikit-learn airflow education",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow education b.sc.",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "education b.sc. computer",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "b.sc. computer science",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "computer science state",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "science state university",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "state university gpa",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "university gpa 3.8/4.0",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gpa 3.8/4.0 relevant",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "3.8/4.0 relevant coursework",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "relevant coursework algorithms",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "coursework algorithms distributed",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "algorithms distributed systems",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "distributed systems ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "systems ml skills",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml skills languages",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills languages python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "languages python go",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python go sql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "go sql bash",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "sql bash javascript",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bash javascript frameworks",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "javascript frameworks fastapi",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "frameworks fastapi django",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "fastapi django flask",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "django flask react",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "flask react cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "react cloud aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cloud aws ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ec2 s3",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ec2 s3 lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "s3 lambda ecs",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "lambda ecs rds",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ecs rds gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rds gcp basics",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gcp basics devops",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "basics devops docker",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "devops docker kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker kubernetes terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes terraform github",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform github actions",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "actions jenkins helm",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jenkins helm databases",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "helm databases postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "databases postgresql mysql",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql mysql redis",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mysql redis mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "redis mongodb elasticsearch",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mongodb elasticsearch data",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "elasticsearch data ml",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data ml pandas",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ml pandas numpy",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pandas numpy scikit-learn",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "numpy scikit-learn spark",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "scikit-learn spark kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark kafka airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka airflow dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow dbt tools",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "dbt tools git",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tools git linux",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "git linux jira",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "linux jira confluence",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "jira confluence prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "confluence prometheus grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "prometheus grafana certifications",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "grafana certifications aws",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certifications aws certified",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certified solutions architect",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect associate",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architect associate cka",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "associate cka certified",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cka certified kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certified kubernetes administrator",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes administrator projects",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "administrator projects resume",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "projects resume ats",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "resume ats pipeline",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ats pipeline built",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipeline built nlp",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "built nlp pipeline",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "nlp pipeline python",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipeline python analyse",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python analyse resumes",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "analyse resumes against",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "resumes against job",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "against job descriptions",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "job descriptions tf-idf",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "descriptions tf-idf keyword",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tf-idf keyword extraction",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "keyword extraction cosine",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "extraction cosine similarity",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cosine similarity jd",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "similarity jd matching",
+          "frequency": 1,
+          "tfidf_score": 0.0293,
+          "category": "domain",
+          "is_ngram": true
+        }
+      ]
+    },
+    "job_description": {
+      "source": "job_description",
+      "total_tokens": 157,
+      "unique_terms": 300,
+      "top_technical_skills": [
+        "aws",
+        "python",
+        "go",
+        "gcp",
+        "kubernetes",
+        "docker",
+        "terraform",
+        "pulumi",
+        "postgresql",
+        "redis",
+        "mongodb",
+        "kafka",
+        "flink",
+        "spark",
+        "ci/cd",
+        "microservices",
+        "rest",
+        "api",
+        "prometheus",
+        "grafana"
+      ],
+      "certifications": [
+        "cka",
+        "solutions architect",
+        "devops engineer"
+      ],
+      "soft_skills": [
+        "leadership",
+        "mentoring",
+        "communication",
+        "collaboration"
+      ],
+      "domain_keywords": [
+        "experience",
+        "engineer",
+        "data",
+        "senior",
+        "backend",
+        "infrastructure",
+        "software",
+        "engineering",
+        "proficiency",
+        "certification",
+        "skills",
+        "ability",
+        "senior backend",
+        "backend engineer",
+        "software engineering"
+      ],
+      "all_keywords": [
+        {
+          "term": "experience",
+          "frequency": 7,
+          "tfidf_score": 0.2325,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "aws",
+          "frequency": 2,
+          "tfidf_score": 0.1689,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "engineer",
+          "frequency": 3,
+          "tfidf_score": 0.1187,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "data",
+          "frequency": 3,
+          "tfidf_score": 0.1187,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "python",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "go",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "docker",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "pulumi",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "redis",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "flink",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "spark",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "rest",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "api",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "datadog",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": false
+        },
+        {
+          "term": "github actions",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": true
+        },
+        {
+          "term": "gitlab ci",
+          "frequency": 1,
+          "tfidf_score": 0.0919,
+          "category": "technical",
+          "is_ngram": true
+        },
+        {
+          "term": "senior",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "backend",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "infrastructure",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "software",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "engineering",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "proficiency",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "certification",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "skills",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ability",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "senior backend",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "backend engineer",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineering",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "senior backend engineer",
+          "frequency": 2,
+          "tfidf_score": 0.0844,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "looking",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "join",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "platform",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "team.",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "requirements",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "5+",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "years",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "professional",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "s3",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "rds",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "expertise",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "cka",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "certification",
+          "is_ngram": false
+        },
+        {
+          "term": "plus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "hands-on",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "code",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "knowledge",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "bonus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "building",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "github",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "actions",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "gitlab",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "ci",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "understanding",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "architecture",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "design",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "monitoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "tools",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "bachelor",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "degree",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "computer",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "science",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "equivalent",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "nice",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "orchestration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "machine",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "learning",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "mlops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "exposure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "solutions",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "architect",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "devops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "soft",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "leadership",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "soft_skill",
+          "is_ngram": false
+        },
+        {
+          "term": "mentoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "soft_skill",
+          "is_ngram": false
+        },
+        {
+          "term": "communication",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "soft_skill",
+          "is_ngram": false
+        },
+        {
+          "term": "collaboration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "soft_skill",
+          "is_ngram": false
+        },
+        {
+          "term": "cross-functionally",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "product",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "teams",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": false
+        },
+        {
+          "term": "engineer cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cloud infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure looking",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "looking senior",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer join",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "join platform",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "platform team.",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "team. requirements",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "requirements 5+",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "5+ years",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "years professional",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "professional software",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineering experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience proficiency",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "proficiency python",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python go",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "go experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience aws",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ec2 s3",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "s3 lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "lambda rds",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rds gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gcp kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes docker",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker expertise",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "expertise cka",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cka certification",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certification plus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "plus hands-on",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "hands-on experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform pulumi",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pulumi infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure code",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "code proficiency",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "proficiency postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql redis",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "redis mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mongodb knowledge",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "knowledge bonus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bonus experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience building",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "building real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "real-time data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka flink",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "flink spark",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci/cd experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience github",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "actions gitlab",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci understanding",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "understanding microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "microservices architecture",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architecture rest",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rest api",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "api design",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "design experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience monitoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "monitoring tools",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tools prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "prometheus grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "grafana datadog",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "datadog bachelor",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bachelor degree",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "degree computer",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "computer science",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "science software",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineering equivalent",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "equivalent nice",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "nice experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "dbt data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data orchestration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "orchestration machine",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "machine learning",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "learning mlops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mlops exposure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "exposure aws",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws solutions",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "certification",
+          "is_ngram": true
+        },
+        {
+          "term": "architect devops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "devops engineer",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "certification",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer certification",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certification soft",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "soft skills",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills leadership",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "leadership mentoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mentoring ability",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ability communication",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "communication collaboration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "collaboration skills",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills ability",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ability cross-functionally",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cross-functionally product",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "product data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data teams",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "backend engineer cloud",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer cloud infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cloud infrastructure looking",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure looking senior",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "looking senior backend",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "backend engineer join",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer join platform",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "join platform team.",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "platform team. requirements",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "team. requirements 5+",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "requirements 5+ years",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "5+ years professional",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "years professional software",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "professional software engineering",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineering experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineering experience proficiency",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience proficiency python",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "proficiency python go",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "python go experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "go experience aws",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience aws ec2",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws ec2 s3",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ec2 s3 lambda",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "s3 lambda rds",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "lambda rds gcp",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rds gcp kubernetes",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gcp kubernetes docker",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kubernetes docker expertise",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "docker expertise cka",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "expertise cka certification",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cka certification plus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certification plus hands-on",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "plus hands-on experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "hands-on experience terraform",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience terraform pulumi",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "terraform pulumi infrastructure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pulumi infrastructure code",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "infrastructure code proficiency",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "code proficiency postgresql",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "proficiency postgresql redis",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "postgresql redis mongodb",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "redis mongodb knowledge",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mongodb knowledge bonus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "knowledge bonus experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bonus experience building",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience building real-time",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "building real-time data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "real-time data pipelines",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data pipelines kafka",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "pipelines kafka flink",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "kafka flink spark",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "flink spark ci/cd",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "spark ci/cd experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci/cd experience github",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience github actions",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "github actions gitlab",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "actions gitlab ci",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "gitlab ci understanding",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ci understanding microservices",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "understanding microservices architecture",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "microservices architecture rest",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architecture rest api",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "rest api design",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "api design experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "design experience monitoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience monitoring tools",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "monitoring tools prometheus",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "tools prometheus grafana",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "prometheus grafana datadog",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "grafana datadog bachelor",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "datadog bachelor degree",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "bachelor degree computer",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "degree computer science",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "computer science software",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "science software engineering",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "software engineering equivalent",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineering equivalent nice",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "equivalent nice experience",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "nice experience airflow",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "experience airflow dbt",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "airflow dbt data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "dbt data orchestration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "data orchestration machine",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "orchestration machine learning",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "machine learning mlops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "learning mlops exposure",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mlops exposure aws",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "exposure aws solutions",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "aws solutions architect",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "solutions architect devops",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "architect devops engineer",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "devops engineer certification",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "engineer certification soft",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "certification soft skills",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "soft skills leadership",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills leadership mentoring",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "leadership mentoring ability",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "mentoring ability communication",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ability communication collaboration",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "communication collaboration skills",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "collaboration skills ability",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "skills ability cross-functionally",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "ability cross-functionally product",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "cross-functionally product data",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        },
+        {
+          "term": "product data teams",
+          "frequency": 1,
+          "tfidf_score": 0.0459,
+          "category": "domain",
+          "is_ngram": true
+        }
+      ]
+    }
+  },
+  "jd_match": {
+    "overall_match_pct": 73.33,
+    "jd_seniority_level": "senior",
+    "jd_required_degree": "bachelor",
+    "dimensions": [
+      {
+        "name": "skill_overlap",
+        "raw_score": 0.55,
+        "weight": 0.35,
+        "weighted_score": 0.1925,
+        "details": {
+          "jd_skills_count": 20,
+          "resume_skills_count": 20,
+          "matched_count": 11,
+          "matched": [
+            "aws",
+            "ci/cd",
+            "docker",
+            "go",
+            "kafka",
+            "kubernetes",
+            "microservices",
+            "postgresql",
+            "python",
+            "rest",
+            "spark"
+          ],
+          "missing": [
+            "api",
+            "flink",
+            "gcp",
+            "grafana",
+            "mongodb",
+            "prometheus",
+            "pulumi",
+            "redis",
+            "terraform"
+          ]
+        }
+      },
+      {
+        "name": "keyword_coverage",
+        "raw_score": 0.75,
+        "weight": 0.25,
+        "weighted_score": 0.1875,
+        "details": {
+          "jd_keywords_evaluated": 40,
+          "matched": 30
+        }
+      },
+      {
+        "name": "experience_signals",
+        "raw_score": 1.0,
+        "weight": 0.2,
+        "weighted_score": 0.2,
+        "details": {
+          "jd_years_required": 5,
+          "resume_years_detected": 11,
+          "jd_seniority": "senior",
+          "resume_seniority_signals": "junior"
+        }
+      },
+      {
+        "name": "education_match",
+        "raw_score": 0.8667,
+        "weight": 0.1,
+        "weighted_score": 0.0867,
+        "details": {
+          "jd_degree_level": 2,
+          "resume_degree_level": 2,
+          "note": "Degree requirement met or exceeded",
+          "field_overlap_score": 0.333
+        }
+      },
+      {
+        "name": "certification_match",
+        "raw_score": 0.6667,
+        "weight": 0.1,
+        "weighted_score": 0.0667,
+        "details": {
+          "jd_certs": [
+            "cka",
+            "devops engineer",
+            "solutions architect"
+          ],
+          "matched": [
+            "cka",
+            "solutions architect"
+          ],
+          "missing": [
+            "devops engineer"
+          ]
+        }
+      }
+    ],
+    "skills": {
+      "matched": [
+        "aws",
+        "ci/cd",
+        "docker",
+        "go",
+        "kafka",
+        "kubernetes",
+        "microservices",
+        "postgresql",
+        "python",
+        "rest",
+        "spark"
+      ],
+      "missing": [
+        "api",
+        "flink",
+        "gcp",
+        "grafana",
+        "mongodb",
+        "prometheus",
+        "pulumi",
+        "redis",
+        "terraform"
+      ],
+      "bonus_in_resume": [
+        "airflow",
+        "apache",
+        "django",
+        "fastapi",
+        "github actions",
+        "jenkins",
+        "pandas",
+        "scikit-learn",
+        "sql"
+      ]
+    },
+    "keywords": {
+      "matched": [
+        "actions",
+        "airflow",
+        "airflow dbt",
+        "architect",
+        "aws",
+        "aws ec2",
+        "aws ec2 s3",
+        "backend",
+        "building",
+        "ci/cd",
+        "cka",
+        "cloud",
+        "code",
+        "computer",
+        "computer science",
+        "data",
+        "data pipelines",
+        "dbt",
+        "devops",
+        "docker",
+        "ec2",
+        "ec2 s3",
+        "ec2 s3 lambda",
+        "engineer",
+        "experience",
+        "gcp",
+        "github",
+        "github actions",
+        "go",
+        "grafana"
+      ],
+      "missing": [
+        "5+",
+        "5+ years",
+        "5+ years professional",
+        "ability",
+        "ability communication",
+        "ability communication collaboration",
+        "ability cross-functionally",
+        "ability cross-functionally product",
+        "actions gitlab",
+        "actions gitlab ci",
+        "airflow dbt data",
+        "api",
+        "api design",
+        "api design experience",
+        "architect devops",
+        "architect devops engineer",
+        "architecture",
+        "architecture rest",
+        "architecture rest api",
+        "aws solutions",
+        "aws solutions architect",
+        "bachelor",
+        "bachelor degree",
+        "bachelor degree computer",
+        "backend engineer",
+        "backend engineer cloud",
+        "backend engineer join",
+        "bonus",
+        "bonus experience",
+        "bonus experience building"
+      ]
+    },
+    "certifications": {
+      "matched": [
+        "cka",
+        "solutions architect"
+      ],
+      "missing": [
+        "devops engineer"
+      ]
+    },
+    "keyword_details": [
+      {
+        "keyword": "experience",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "aws",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "engineer",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "data",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "python",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "go",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "gcp",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "kubernetes",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "docker",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "terraform",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "pulumi",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "postgresql",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "redis",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "mongodb",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "kafka",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "flink",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "spark",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "ci/cd",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "microservices",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "rest",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "api",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "prometheus",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "grafana",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "datadog",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "airflow",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "dbt",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "github actions",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "gitlab ci",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "senior",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "backend",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "infrastructure",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "software",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "engineering",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "proficiency",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "certification",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "skills",
+        "in_resume": true,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "ability",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "senior backend",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "backend engineer",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "software engineering",
+        "in_resume": false,
+        "in_jd": true,
+        "importance": "required"
+      }
+    ]
+  },
+  "ats_result": {
+    "ats_score": 77,
+    "grade": "Good",
+    "grade_detail": "Good match with a few skill or keyword gaps to address.",
+    "score_breakdown": {
+      "keyword_match": 22,
+      "skill_relevance": 14,
+      "experience_alignment": 20,
+      "education_fit": 13,
+      "formatting_clarity": 8
+    },
+    "resume_text_length": 1896,
+    "sections_detected": {
+      "summary": {
+        "detected": true,
+        "line_count": 3,
+        "preview": "Experienced Software Engineer with 5 years building scalable backend systems and data pipelines using Python, AWS, and Kubernetes. AWS Certified Solutions Architect. "
+      },
+      "experience": {
+        "detected": true,
+        "line_count": 11,
+        "preview": "Senior Software Engineer — TechCorp Inc.                       2021 – Present • Designed and deployed microservices using Python (FastAPI) and Docker on AWS ECS • Built real-time data pipelines with A"
+      },
+      "education": {
+        "detected": true,
+        "line_count": 3,
+        "preview": "B.Sc. Computer Science — State University                      2015 – 2019 GPA: 3.8/4.0 | Relevant coursework: Algorithms, Distributed Systems, ML "
+      },
+      "skills": {
+        "detected": true,
+        "line_count": 8,
+        "preview": "Languages:   Python, Go, SQL, Bash, JavaScript Frameworks:  FastAPI, Django, Flask, React Cloud:       AWS (EC2, S3, Lambda, ECS, RDS), GCP basics"
+      },
+      "projects": {
+        "detected": true,
+        "line_count": 4,
+        "preview": "Resume ATS Pipeline (2024) • Built an NLP pipeline in Python to analyse resumes against job descriptions • Used TF-IDF keyword extraction and cosine similarity for JD matching"
+      },
+      "certifications": {
+        "detected": true,
+        "line_count": 0,
+        "preview": ""
+      },
+      "awards": {
+        "detected": false,
+        "line_count": 0,
+        "preview": ""
+      },
+      "publications": {
+        "detected": false,
+        "line_count": 0,
+        "preview": ""
+      }
+    },
+    "technical_skills": [
+      "aws",
+      "python",
+      "kubernetes",
+      "fastapi",
+      "docker",
+      "apache",
+      "kafka",
+      "spark",
+      "django",
+      "postgresql",
+      "jenkins",
+      "pandas",
+      "scikit-learn",
+      "airflow",
+      "github actions",
+      "microservices",
+      "rest",
+      "ci/cd",
+      "go",
+      "sql"
+    ],
+    "certifications": [
+      "cka",
+      "aws certified",
+      "solutions architect"
+    ],
+    "keywords_required": [
+      {
+        "keyword": "experience",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "aws",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "engineer",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "data",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "python",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "go",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "gcp",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "kubernetes",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "docker",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "terraform",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "pulumi",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "postgresql",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "redis",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "mongodb",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "kafka",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "flink",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "spark",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "ci/cd",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "microservices",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "rest",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "api",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "prometheus",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "grafana",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "datadog",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "airflow",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "dbt",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "github actions",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "gitlab ci",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "senior",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "backend",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "infrastructure",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "software",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "engineering",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "proficiency",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "certification",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "skills",
+        "found": true,
+        "importance": "required"
+      },
+      {
+        "keyword": "ability",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "senior backend",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "backend engineer",
+        "found": false,
+        "importance": "required"
+      },
+      {
+        "keyword": "software engineering",
+        "found": false,
+        "importance": "required"
+      }
+    ],
+    "match_analysis": {
+      "overall_match_pct": 73.33,
+      "jd_seniority_level": "senior",
+      "jd_required_degree": "bachelor",
+      "dimensions": [
+        {
+          "name": "skill_overlap",
+          "raw_score": 0.55,
+          "weight": 0.35,
+          "weighted_score": 0.1925,
+          "details": {
+            "jd_skills_count": 20,
+            "resume_skills_count": 20,
+            "matched_count": 11,
+            "matched": [
+              "aws",
+              "ci/cd",
+              "docker",
+              "go",
+              "kafka",
+              "kubernetes",
+              "microservices",
+              "postgresql",
+              "python",
+              "rest",
+              "spark"
+            ],
+            "missing": [
+              "api",
+              "flink",
+              "gcp",
+              "grafana",
+              "mongodb",
+              "prometheus",
+              "pulumi",
+              "redis",
+              "terraform"
+            ]
+          }
+        },
+        {
+          "name": "keyword_coverage",
+          "raw_score": 0.75,
+          "weight": 0.25,
+          "weighted_score": 0.1875,
+          "details": {
+            "jd_keywords_evaluated": 40,
+            "matched": 30
+          }
+        },
+        {
+          "name": "experience_signals",
+          "raw_score": 1.0,
+          "weight": 0.2,
+          "weighted_score": 0.2,
+          "details": {
+            "jd_years_required": 5,
+            "resume_years_detected": 11,
+            "jd_seniority": "senior",
+            "resume_seniority_signals": "junior"
+          }
+        },
+        {
+          "name": "education_match",
+          "raw_score": 0.8667,
+          "weight": 0.1,
+          "weighted_score": 0.0867,
+          "details": {
+            "jd_degree_level": 2,
+            "resume_degree_level": 2,
+            "note": "Degree requirement met or exceeded",
+            "field_overlap_score": 0.333
+          }
+        },
+        {
+          "name": "certification_match",
+          "raw_score": 0.6667,
+          "weight": 0.1,
+          "weighted_score": 0.0667,
+          "details": {
+            "jd_certs": [
+              "cka",
+              "devops engineer",
+              "solutions architect"
+            ],
+            "matched": [
+              "cka",
+              "solutions architect"
+            ],
+            "missing": [
+              "devops engineer"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "matched": [
+          "aws",
+          "ci/cd",
+          "docker",
+          "go",
+          "kafka",
+          "kubernetes",
+          "microservices",
+          "postgresql",
+          "python",
+          "rest",
+          "spark"
+        ],
+        "missing": [
+          "api",
+          "flink",
+          "gcp",
+          "grafana",
+          "mongodb",
+          "prometheus",
+          "pulumi",
+          "redis",
+          "terraform"
+        ],
+        "bonus_in_resume": [
+          "airflow",
+          "apache",
+          "django",
+          "fastapi",
+          "github actions",
+          "jenkins",
+          "pandas",
+          "scikit-learn",
+          "sql"
+        ]
+      },
+      "keywords": {
+        "matched": [
+          "actions",
+          "airflow",
+          "airflow dbt",
+          "architect",
+          "aws",
+          "aws ec2",
+          "aws ec2 s3",
+          "backend",
+          "building",
+          "ci/cd",
+          "cka",
+          "cloud",
+          "code",
+          "computer",
+          "computer science",
+          "data",
+          "data pipelines",
+          "dbt",
+          "devops",
+          "docker",
+          "ec2",
+          "ec2 s3",
+          "ec2 s3 lambda",
+          "engineer",
+          "experience",
+          "gcp",
+          "github",
+          "github actions",
+          "go",
+          "grafana"
+        ],
+        "missing": [
+          "5+",
+          "5+ years",
+          "5+ years professional",
+          "ability",
+          "ability communication",
+          "ability communication collaboration",
+          "ability cross-functionally",
+          "ability cross-functionally product",
+          "actions gitlab",
+          "actions gitlab ci",
+          "airflow dbt data",
+          "api",
+          "api design",
+          "api design experience",
+          "architect devops",
+          "architect devops engineer",
+          "architecture",
+          "architecture rest",
+          "architecture rest api",
+          "aws solutions",
+          "aws solutions architect",
+          "bachelor",
+          "bachelor degree",
+          "bachelor degree computer",
+          "backend engineer",
+          "backend engineer cloud",
+          "backend engineer join",
+          "bonus",
+          "bonus experience",
+          "bonus experience building"
+        ]
+      },
+      "certifications": {
+        "matched": [
+          "cka",
+          "solutions architect"
+        ],
+        "missing": [
+          "devops engineer"
+        ]
+      },
+      "keyword_details": [
+        {
+          "keyword": "experience",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "aws",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "engineer",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "data",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "python",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "go",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "gcp",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "kubernetes",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "docker",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "terraform",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "pulumi",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "postgresql",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "redis",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "mongodb",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "kafka",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "flink",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "spark",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "ci/cd",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "microservices",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "rest",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "api",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "prometheus",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "grafana",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "datadog",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "airflow",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "dbt",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "github actions",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "gitlab ci",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "senior",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "backend",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "infrastructure",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "software",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "engineering",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "proficiency",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "certification",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "skills",
+          "in_resume": true,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "ability",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "senior backend",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "backend engineer",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        },
+        {
+          "keyword": "software engineering",
+          "in_resume": false,
+          "in_jd": true,
+          "importance": "required"
+        }
+      ]
+    },
+    "improvements": [
+      {
+        "priority": "high",
+        "category": "skills",
+        "suggestion": "Add or highlight these skills missing from your resume: api, flink, gcp, grafana, mongodb. Include them in your Skills section and weave them into experience bullet points."
+      },
+      {
+        "priority": "medium",
+        "category": "certifications",
+        "suggestion": "The JD references certifications not found in your resume: devops engineer. Pursue or list any equivalent credentials you hold."
+      },
+      {
+        "priority": "low",
+        "category": "skills",
+        "suggestion": "You have skills not mentioned in the JD (airflow, apache, django, fastapi). Keep them but ensure JD-required skills are more prominently featured."
+      }
+    ]
+  }
+}

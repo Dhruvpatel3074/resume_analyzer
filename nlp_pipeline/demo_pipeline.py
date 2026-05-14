@@ -20,10 +20,9 @@ from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8") # type: ignore
-
-from resume_analyzer.nlp_pipeline.keyword_analyzer import KeywordAnalyzer
-from resume_analyzer.nlp_pipeline.jd_matcher import JDMatcher
-from resume_analyzer.nlp_pipeline.ats_scorer import ATSScorer, extract_text_from_file
+from nlp_pipeline.keyword_analyzer import KeywordAnalyzer
+from nlp_pipeline.jd_matcher import JDMatcher
+from nlp_pipeline.ats_scorer import ATSScorer
 
 
 # ---------------------------------------------------------------------------

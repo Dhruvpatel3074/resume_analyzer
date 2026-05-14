@@ -31,8 +31,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-from resume_analyzer.nlp_pipeline.keyword_analyzer import KeywordAnalyzer
-from resume_analyzer.nlp_pipeline.jd_matcher import JDMatcher, MatchReport
+from nlp_pipeline.keyword_analyzer import KeywordAnalyzer
+from nlp_pipeline.jd_matcher import JDMatcher, MatchReport
 
 
 # ---------------------------------------------------------------------------

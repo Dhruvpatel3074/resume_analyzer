@@ -23,7 +23,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 from typing import Optional
 
-from resume_analyzer.nlp_pipeline.keyword_analyzer import KeywordAnalyzer, KeywordReport
+from nlp_pipeline.keyword_analyzer import KeywordAnalyzer, KeywordReport
 
 
 # ---------------------------------------------------------------------------
